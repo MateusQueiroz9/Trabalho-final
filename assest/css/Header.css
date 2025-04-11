@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ 
+    
+}
+body{
+background-color: #100e45;
+
+  
+}
+header {
+    background-color: #100e45;  
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+z-index: 10;
+}
+#img {
+    text-align: center;
+}   
+#imgHeader img {
+   max-width: 150px;
+    height: auto;
+   
+}
+#cabeçalho {
+ transform: translateY(-280%) translateX(3%);   
+ background-color: #100e45;
+
+}
+#listaDejesos {
+    transform: translateX(78%) translateY(-400%);
+}
+#Entrar {
+    transform: translateX(88%) translateY(-500%);
+}
+ #cham1 {
+    font-size: 30px;
+    transform: translateY(50%) translateX(6.7%);
+    color: rgb(55, 193, 55);
+    font-weight: bold;
+} 
+#pions2 {
+    font-size: 30px;
+    transform: translateY(-52%) translateX(10.8%);
+    font-weight: bold;
+    color: white;
+}
+#store3 {
+    font-size: 30px;
+    transform: translateY(-148%) translateX(15%);
+    font-weight: bold;
+    color: blue;
+} 
+
+
+nav ul {
+    display: flex;
+    
+    
+}
+nav ul li  {
+    font-size: 34px;
+   margin: 300px; 
+  transform: translateY(-3600%) translateX(-20%);
+  list-style: none;
+  
+   
+
+}
+nav a {
+    text-decoration: none;
+    color: white;
+ 
+}
+#div1 {
+    transform: translateY(-150%) translateX(-2%);
+   height: 36px;
+width: 100%;
+   background-color: #6743BB;
+ 
+}
+#div1 p {
+    font-size: 26px;
+  text-align: center;
+
+}
+#caixaDePesquisa {
+    transform: translateY(-1580%) translateX(28%);
+}
+#caixaDePesquisa input {
+padding: 15px;
+width: 50%;
+border-radius: 10px;
+}
+#selecte {
+    background-color: #100e45;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.selaçãoDeItem {
+    padding: 17px;
+
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cabeçalho {
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cabeçalho {
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
